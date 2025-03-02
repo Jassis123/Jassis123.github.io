@@ -63,23 +63,76 @@
   </div>
   
 
-  <main class="post-content"><h1 id="平台搭建"><a href="#平台搭建" class="headerlink" title="平台搭建"></a>平台搭建</h1><p>由无人机、水面艇和潜器组成的实验平台</p>
+  <main class="post-content"><h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a><strong>引言</strong></h1><blockquote>
+<p>随着海洋科学技术的发展，水下目标探测任务更加强调探测的效率和跨平台探测系统的协作。<br>本文对无人机-水面艇-潜器组成的探测实验平台进行了详细介绍，其中包含各无人航行器的硬件组成和模块功能介绍。另外，为了满足实验平台通信的需求，实现必要数据信息的跨介质传输，进行了相应功能设计。并且在实验室水池内对各项模块和功能进行了验证，为后续验证无人机-水面艇-潜器的探测算法提供了有效支持。</p>
+</blockquote>
+<h1 id="平台搭建"><a href="#平台搭建" class="headerlink" title="平台搭建"></a>平台搭建</h1><p>由无人机、水面艇和潜器组成的实验平台</p>
 <ul>
 <li>平台功能：具备通信、探测、定位和控制等基本功能。</li>
 </ul>
-<p><img src="/images/%E5%8D%8F%E5%90%8C%E5%B9%B3%E5%8F%B0.png" alt="示例图片"></p>
-<h3 id="无人机"><a href="#无人机" class="headerlink" title="无人机"></a>无人机</h3><p>组成：控制单元、定位单元、通信单元和探测单元</p>
-<p><img src="/images/%E6%97%A0%E4%BA%BA%E6%9C%BA%E5%B9%B3%E5%8F%B0.png" alt="示例图片"></p>
+<div style="text-align: center;">
+  <img src="/images/协同平台.png" alt="示例图片">
+</div>
+
+<h2 id="无人机"><a href="#无人机" class="headerlink" title="无人机"></a>无人机</h2><blockquote>
+<p>无人机提供了探测中对水面目标的探测优势。</p>
+</blockquote>
+<p>组成：控制单元、定位单元、通信单元和探测单元<br>主要框架结构如下：</p>
+<div style="text-align: center;">
+    <img src="/images/无人机平台.png" alt="示例图片" style="width: 100%; height: auto;">
+</div>
+
+<ul>
+<li>控制单元：获取及处理图像数据、数据接收和传输控制指令。</li>
+<li>定位单元：获取定位数据</li>
+<li>通信单元：实现数据的无限通信传输。</li>
+<li>探测单元：实现视频图像的无限传输。</li>
+</ul>
 <div style="display: flex; justify-content: space-around;">
     <div>
-        <img src="../images/树莓派.png" alt="树莓派" style="height: 200px; width: 200px;">
+        <img src="/images/树莓派.png" alt="树莓派" style="height: 200px; width: 200px;">
         <p>树莓派</p>
     </div>
     <div>
-        <img src="../images/Pixhawk4.png" alt="Pixhawk4" style="height: 200px; width: 200px;">
+        <img src="/images/Pixhawk4.png" alt="Pixhawk4" style="height: 200px; width: 200px;">
         <p>Pixhawk4</p>
     </div>
 </div>
+
+<h2 id="水面艇"><a href="#水面艇" class="headerlink" title="水面艇"></a>水面艇</h2><blockquote>
+<p>水面艇是水上和水下通信与协同的必要桥梁</p>
+</blockquote>
+<p>组成：控制单元、定位单元、通信单元和探测单元</p>
+<div style="text-align: center;">
+    <img src="/images/水面艇框架.png" alt="示例图片" style="width: 100%; height: auto;">
+</div>
+
+<h2 id="潜器"><a href="#潜器" class="headerlink" title="潜器"></a>潜器</h2><blockquote>
+<p>水下探测的主力，能够对目标抵近侦察</p>
+</blockquote>
+<p>组成：双层结构，携带声呐等设备，其他与水面艇趋同</p>
+<h1 id="水池试验"><a href="#水池试验" class="headerlink" title="水池试验"></a>水池试验</h1><div style="text-align: center;">
+    <img src="/images/水池1.gif" alt="示例图片" style="width: 100%; height: auto;">
+</div>
+
+<h1 id="湖泊试验"><a href="#湖泊试验" class="headerlink" title="湖泊试验"></a>湖泊试验</h1><div style="text-align: center;">
+    <img src="/images/湖泊1.png" alt="示例图片" style="width: 100%; height: auto;">
+</div>
+
+<h1 id="海洋试验"><a href="#海洋试验" class="headerlink" title="海洋试验"></a>海洋试验</h1><div style="text-align: center;">
+    <img src="/images/海洋1.png" alt="示例图片" style="width: 100%; height: auto;">
+</div>
+
+<h1 id="协同探测布局"><a href="#协同探测布局" class="headerlink" title="协同探测布局"></a>协同探测布局</h1><div style="text-align: center;">
+    <img src="/images/水面探测1.png" alt="示例图片" style="width: 100%; height: auto;">
+</div>
+<div style="text-align: center;">
+    <img src="/images/协同布局.png" alt="示例图片" style="width: 100%; height: auto;">
+</div>
+
+<blockquote>
+<p>详情可参考论文：<em><em>J. Yan, J. Lin</em>, et al.</em>* Cooperation Detection and Tracking of Underwater Target via Aerial–Surface–Underwater Vehicles IEEE TAC, 70(2): 1068-1083, 2025。</p>
+</blockquote>
 </main>
 
 </article>
