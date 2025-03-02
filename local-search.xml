@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>跨域协同水下目标探测平台设计与搭建</title>
+    <link href="/2025/03/02/%E8%B7%A8%E5%9F%9F%E5%8D%8F%E5%90%8C%E6%B0%B4%E4%B8%8B%E7%9B%AE%E6%A0%87%E6%8E%A2%E6%B5%8B%E5%B9%B3%E5%8F%B0%E8%AE%BE%E8%AE%A1%E4%B8%8E%E6%90%AD%E5%BB%BA/"/>
+    <url>/2025/03/02/%E8%B7%A8%E5%9F%9F%E5%8D%8F%E5%90%8C%E6%B0%B4%E4%B8%8B%E7%9B%AE%E6%A0%87%E6%8E%A2%E6%B5%8B%E5%B9%B3%E5%8F%B0%E8%AE%BE%E8%AE%A1%E4%B8%8E%E6%90%AD%E5%BB%BA/</url>
+    
+    <content type="html"><![CDATA[<h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a><strong>引言</strong></h1><blockquote><p>随着海洋科学技术的发展，水下目标探测任务更加强调探测的效率和跨平台探测系统的协作。<br>本文对无人机-水面艇-潜器组成的探测实验平台进行了详细介绍，其中包含各无人航行器的硬件组成和模块功能介绍。另外，为了满足实验平台通信的需求，实现必要数据信息的跨介质传输，进行了相应功能设计。并且在实验室水池内对各项模块和功能进行了验证，为后续验证无人机-水面艇-潜器的探测算法提供了有效支持。</p></blockquote><h1 id="平台搭建"><a href="#平台搭建" class="headerlink" title="平台搭建"></a>平台搭建</h1><p>由无人机、水面艇和潜器组成的实验平台</p><ul><li>平台功能：具备通信、探测、定位和控制等基本功能。</li></ul><div style="text-align: center;">  <img src="/images/协同平台.png" alt="示例图片"></div><h2 id="无人机"><a href="#无人机" class="headerlink" title="无人机"></a>无人机</h2><blockquote><p>无人机提供了探测中对水面目标的探测优势。</p></blockquote><p>组成：控制单元、定位单元、通信单元和探测单元<br>主要框架结构如下：</p><div style="text-align: center;">    <img src="/images/无人机平台.png" alt="示例图片" style="width: 100%; height: auto;"></div><ul><li>控制单元：获取及处理图像数据、数据接收和传输控制指令。</li><li>定位单元：获取定位数据</li><li>通信单元：实现数据的无限通信传输。</li><li>探测单元：实现视频图像的无限传输。</li></ul><div style="display: flex; justify-content: space-around;">    <div>        <img src="/images/树莓派.png" alt="树莓派" style="height: 200px; width: 200px;">        <p>树莓派</p>    </div>    <div>        <img src="/images/Pixhawk4.png" alt="Pixhawk4" style="height: 200px; width: 200px;">        <p>Pixhawk4</p>    </div></div><h2 id="水面艇"><a href="#水面艇" class="headerlink" title="水面艇"></a>水面艇</h2><blockquote><p>水面艇是水上和水下通信与协同的必要桥梁</p></blockquote><p>组成：控制单元、定位单元、通信单元和探测单元</p><div style="text-align: center;">    <img src="/images/水面艇框架.png" alt="示例图片" style="width: 100%; height: auto;"></div><h2 id="潜器"><a href="#潜器" class="headerlink" title="潜器"></a>潜器</h2><blockquote><p>水下探测的主力，能够对目标抵近侦察</p></blockquote><p>组成：双层结构，携带声呐等设备，其他与水面艇趋同</p><h1 id="水池试验"><a href="#水池试验" class="headerlink" title="水池试验"></a>水池试验</h1><div style="text-align: center;">    <img src="/images/水池1.gif" alt="示例图片" style="width: 100%; height: auto;"></div><h1 id="湖泊试验"><a href="#湖泊试验" class="headerlink" title="湖泊试验"></a>湖泊试验</h1><div style="text-align: center;">    <img src="/images/湖泊1.png" alt="示例图片" style="width: 100%; height: auto;"></div><h1 id="海洋试验"><a href="#海洋试验" class="headerlink" title="海洋试验"></a>海洋试验</h1><div style="text-align: center;">    <img src="/images/海洋1.png" alt="示例图片" style="width: 100%; height: auto;"></div><h1 id="协同探测布局"><a href="#协同探测布局" class="headerlink" title="协同探测布局"></a>协同探测布局</h1><div style="text-align: center;">    <img src="/images/水面探测1.png" alt="示例图片" style="width: 100%; height: auto;"></div><div style="text-align: center;">    <img src="/images/协同布局.png" alt="示例图片" style="width: 100%; height: auto;"></div><blockquote><p>详情可参考论文：<em><em>J. Yan, J. Lin</em>, et al.</em>* Cooperation Detection and Tracking of Underwater Target via Aerial–Surface–Underwater Vehicles IEEE TAC, 70(2): 1068-1083, 2025。</p></blockquote>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>欢迎来到林景胜的个人空间！</title>
+    <link href="/2025/02/05/hello-world/"/>
+    <url>/2025/02/05/hello-world/</url>
+    
+    <content type="html"><![CDATA[<p><strong>林景胜</strong><br>燕山大学电子信息硕士（2021-2024），硕士期间专注水下机器人协同算法开发，以第一&#x2F;共同作者在<strong>IEEE TAC</strong>（SCI一区TOP）等期刊发表论文，获发明专利1项。</p><p><strong>核心能力</strong><br>✦ 强化学习算法：部署DDPG算法实现水下机器人路径规划（PyTorch）<br>✦ 嵌入式开发：主导车载DCDC&#x2F;OBC功率模块开发（AUTOSAR&#x2F;Simulink）<br>✦ 系统集成：构建基于TCP&#x2F;IP的水下机器人通信框架（20+FPS视频回传）  </p><p><strong>项目亮点</strong><br><code>水下机器人系统</code>：YOLOv4-tiny目标检测 | ROS激光雷达SLAM建图<br><code>智能巡检机器人</code>：MySQL云端数据同步 | PyQT5人机交互界面开发  </p><p><strong>成果速览</strong><br>✓ 世界水下机器人大赛国家级二等奖（2022）<br>✓ 全国电工数学建模竞赛一等奖（2022）  </p><p>完整履历与项目视频：<a href="https://linjingshengblog.netlify.app/">linjingshengblog.netlify.app</a></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>BlueROV水下机器人实验</title>
+    <link href="/2023/06/06/%E6%B0%B4%E4%B8%8B%E6%9C%BA%E5%99%A8%E4%BA%BA%E9%A1%B9%E7%9B%AE/"/>
+    <url>/2023/06/06/%E6%B0%B4%E4%B8%8B%E6%9C%BA%E5%99%A8%E4%BA%BA%E9%A1%B9%E7%9B%AE/</url>
+    
+    <content type="html"><![CDATA[<h1 id="BlueROV-实战"><a href="#BlueROV-实战" class="headerlink" title="BlueROV 实战"></a>BlueROV 实战</h1><h2 id="水池"><a href="#水池" class="headerlink" title="水池"></a>水池</h2><p><img src="/images/%E6%B0%B4%E6%B1%A01.gif" alt="示例图片"></p><p><img src="/images/%E6%B0%B4%E6%B1%A02.gif" alt="示例图片"></p><p><img src="/images/%E6%B0%B4%E4%B8%8B1.gif" alt="示例图片"></p><h2 id="湖泊"><a href="#湖泊" class="headerlink" title="湖泊"></a>湖泊</h2><p><img src="/images/%E6%B5%B7%E6%B4%8B.gif" alt="示例图片"></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>水下机器人作品集</title>
+    <link href="/2022/08/07/%E6%B0%B4%E4%B8%8B%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%BD%9C%E5%93%81%E9%9B%86/"/>
+    <url>/2022/08/07/%E6%B0%B4%E4%B8%8B%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%BD%9C%E5%93%81%E9%9B%86/</url>
+    
+    <content type="html"><![CDATA[<h1 id="水下机器人系统开发"><a href="#水下机器人系统开发" class="headerlink" title="水下机器人系统开发"></a>水下机器人系统开发</h1><hr><ul><li>本项目来源于研究生期间的课题衍生。这里面个人主要负责软件整体框架的设计开发与调试、机器人控制程序和硬件组装等。</li><li>具体包括基于TCP&#x2F;IP协议的网络通信，板间串口通信，水声通信，机械臂抓取程序，机器人的运动控制，强化学习控制算法，遥操作程序设计和PyQt5上位机软件制作等。</li></ul><hr><p>以下是个人参与设计研发的部分成果的展示。</p><h2 id="1-潜航器硬件展示"><a href="#1-潜航器硬件展示" class="headerlink" title="1.潜航器硬件展示"></a>1.潜航器硬件展示</h2><p><strong>【视频展示】</strong><br><a href="https://www.bilibili.com/video/BV1mj41147Ke/?spm_id_from=333.999.0.0&amp;vd_source=4be7561bc287d34ebce9f64909e36931">https://www.bilibili.com/video/BV1mj41147Ke/?spm_id_from=333.999.0.0&amp;vd_source=4be7561bc287d34ebce9f64909e36931</a> </p><table><thead><tr><th>参数</th><th>值</th></tr></thead><tbody><tr><td>机器人体积</td><td>700×600×550</td></tr><tr><td>机器人重量</td><td>40kg</td></tr><tr><td>供电方式</td><td>220V</td></tr><tr><td>通讯距离</td><td>600m</td></tr><tr><td>潜水等级</td><td>300m</td></tr><tr><td>照明灯</td><td>3600流明</td></tr></tbody></table><div style="text-align: center;">    <img src="/images/机器人本体.png" alt="示例图片" style="width: 100%; height: auto;"></div><h2 id="2-整体框架展示"><a href="#2-整体框架展示" class="headerlink" title="2.整体框架展示"></a>2.整体框架展示</h2><ul><li>通过合理的算力分摊提高系统整体的处理速度。</li></ul><div style="text-align: center;">    <img src="/images/通信结构.png" alt="示例图片" style="width: 100%; height: auto;"></div><ul><li>操作端局域网组网。</li><li>算力分摊。将部分数据由本地进行处理，处理结果发回边缘端设备，降低系统延迟。</li></ul><h2 id="3-软件部分展示"><a href="#3-软件部分展示" class="headerlink" title="3.软件部分展示"></a>3.软件部分展示</h2><h3 id="上位机设计"><a href="#上位机设计" class="headerlink" title="上位机设计"></a>上位机设计</h3><p>感传控一体上位机。由PyQt5制作界面，采用多线程，socket等技术实现。<br>功能：通过输入目标IP地址可以建立起相应的通信连接。</p><div style="text-align: center;">    <img src="/images/上位机.png" alt="示例图片" style="width: 100%; height: auto;"></div><h3 id="图像检测"><a href="#图像检测" class="headerlink" title="图像检测"></a>图像检测</h3><div style="text-align: center;">    <img src="/images/图像检测.gif" alt="示例图片" style="width: 100%; height: auto;"></div><h2 id="4-机械臂"><a href="#4-机械臂" class="headerlink" title="4.机械臂"></a>4.机械臂</h2><p>机械臂抓取控制（夹取，松开，回收，复位），及机器人遥操作程序。</p><div style="text-align: center;">    <img src="/images/机械臂结构.png" alt="示例图片" style="width: 100%; height: auto;"></div><h2 id="场景演示"><a href="#场景演示" class="headerlink" title="场景演示"></a>场景演示</h2><h3 id="水下抓取"><a href="#水下抓取" class="headerlink" title="水下抓取"></a>水下抓取</h3><p>基于图像检测数据反馈的模糊PID控制系统。</p><p><img src="/images/%E6%B0%B4%E4%B8%8B%E6%B5%8B%E8%AF%95.png" alt="示例图片"></p><div style="text-align: center;">    <img src="/images/水下场景.png" alt="示例图片" style="width: 100%; height: auto;"></div><h3 id="证书"><a href="#证书" class="headerlink" title="证书"></a>证书</h3><p><img src="/images/%E6%B0%B4%E4%B8%8B%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%A4%A7%E8%B5%9B%E5%A5%96%E9%A1%B9%E8%AF%81%E4%B9%A6.png" alt="示例图片"></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  
+</search>
