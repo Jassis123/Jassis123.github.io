@@ -19,32 +19,22 @@
   <meta name="author" content="林景胜">
   <meta name="keywords" content="">
   
-    <meta name="description" content="引言 随着海洋科学技术的发展，水下目标探测任务更加强调探测的效率和跨平台探测系统的协作。本文对无人机-水面艇-潜器组成的探测实验平台进行了详细介绍，其中包含各无人航行器的硬件组成和模块功能介绍。另外，为了满足实验平台通信的需求，实现必要数据信息的跨介质传输，进行了相应功能设计。并且在实验室水池内对各项模块和功能进行了验证，为后续验证无人机-水面艇-潜器的探测算法提供了有效支持。  平台搭建由无人机">
+    <meta name="description" content="[年份&#x2F;项目] 车载充电机开发小结1️⃣ 核心技术应用 车载充电机（On-Board Charger, OBC）是电动汽车的重要组成部分，负责将外部电源转换为适合电池充电的电能。OBC的核心技术包括高效的电力电子转换、智能充电控制算法以及多种通信协议的应用，以确保充电过程的安全性和高效性。通过CAN通信，OBC能够与车辆的其他控制单元进行数据交换，实现对充电过程的实时监控和管理。  开发">
 <meta property="og:type" content="article">
-<meta property="og:title" content="跨域协同水下目标探测平台设计与搭建">
-<meta property="og:url" content="https://jassis123.github.io/2025/03/02/%E8%B7%A8%E5%9F%9F%E5%8D%8F%E5%90%8C%E6%B0%B4%E4%B8%8B%E7%9B%AE%E6%A0%87%E6%8E%A2%E6%B5%8B%E5%B9%B3%E5%8F%B0%E8%AE%BE%E8%AE%A1%E4%B8%8E%E6%90%AD%E5%BB%BA/index.html">
+<meta property="og:title" content="在新能源公司嵌入式软件岗位的学习总结（一）">
+<meta property="og:url" content="https://jassis123.github.io/2025/03/23/OBC-learning/index.html">
 <meta property="og:site_name" content="林景胜的个人空间">
-<meta property="og:description" content="引言 随着海洋科学技术的发展，水下目标探测任务更加强调探测的效率和跨平台探测系统的协作。本文对无人机-水面艇-潜器组成的探测实验平台进行了详细介绍，其中包含各无人航行器的硬件组成和模块功能介绍。另外，为了满足实验平台通信的需求，实现必要数据信息的跨介质传输，进行了相应功能设计。并且在实验室水池内对各项模块和功能进行了验证，为后续验证无人机-水面艇-潜器的探测算法提供了有效支持。  平台搭建由无人机">
+<meta property="og:description" content="[年份&#x2F;项目] 车载充电机开发小结1️⃣ 核心技术应用 车载充电机（On-Board Charger, OBC）是电动汽车的重要组成部分，负责将外部电源转换为适合电池充电的电能。OBC的核心技术包括高效的电力电子转换、智能充电控制算法以及多种通信协议的应用，以确保充电过程的安全性和高效性。通过CAN通信，OBC能够与车辆的其他控制单元进行数据交换，实现对充电过程的实时监控和管理。  开发">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://jassis123.github.io/images/协同平台.png">
-<meta property="og:image" content="https://jassis123.github.io/images/无人机平台.png">
-<meta property="og:image" content="https://jassis123.github.io/images/树莓派.png">
-<meta property="og:image" content="https://jassis123.github.io/images/Pixhawk4.png">
-<meta property="og:image" content="https://jassis123.github.io/images/水面艇框架.png">
-<meta property="og:image" content="https://jassis123.github.io/images/水池1.gif">
-<meta property="og:image" content="https://jassis123.github.io/images/湖泊1.png">
-<meta property="og:image" content="https://jassis123.github.io/images/海洋1.png">
-<meta property="og:image" content="https://jassis123.github.io/images/水面探测1.png">
-<meta property="og:image" content="https://jassis123.github.io/images/协同布局.png">
-<meta property="article:published_time" content="2025-03-02T02:34:28.000Z">
-<meta property="article:modified_time" content="2025-03-02T08:32:53.471Z">
+<meta property="article:published_time" content="2025-03-23T08:35:41.697Z">
+<meta property="article:modified_time" content="2025-03-23T10:33:23.713Z">
 <meta property="article:author" content="林景胜">
+<meta property="article:tag" content="OBC">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://jassis123.github.io/images/协同平台.png">
   
   
   
-  <title>跨域协同水下目标探测平台设计与搭建 - 林景胜的个人空间</title>
+  <title>在新能源公司嵌入式软件岗位的学习总结（一） - 林景胜的个人空间</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -217,7 +207,7 @@
 
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="跨域协同水下目标探测平台设计与搭建"></span>
+            <span id="subtitle" data-typed-text="在新能源公司嵌入式软件岗位的学习总结（一）"></span>
           
         </div>
 
@@ -234,8 +224,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2025-03-02 10:34" pubdate>
-          2025年3月2日 上午
+        <time datetime="2025-03-23 16:35" pubdate>
+          2025年3月23日 下午
         </time>
       </span>
     
@@ -246,7 +236,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          451 字
+          208 字
         
       </span>
     
@@ -257,7 +247,7 @@
         
         
         
-          4 分钟
+          2 分钟
         
       </span>
     
@@ -294,81 +284,36 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">跨域协同水下目标探测平台设计与搭建</h1>
+            <h1 id="seo-header">在新能源公司嵌入式软件岗位的学习总结（一）</h1>
             
             
               <div class="markdown-body">
                 
-                <h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a><strong>引言</strong></h1><blockquote>
-<p>随着海洋科学技术的发展，水下目标探测任务更加强调探测的效率和跨平台探测系统的协作。<br>本文对无人机-水面艇-潜器组成的探测实验平台进行了详细介绍，其中包含各无人航行器的硬件组成和模块功能介绍。另外，为了满足实验平台通信的需求，实现必要数据信息的跨介质传输，进行了相应功能设计。并且在实验室水池内对各项模块和功能进行了验证，为后续验证无人机-水面艇-潜器的探测算法提供了有效支持。</p>
+                <h1 id="年份-x2F-项目-车载充电机开发小结"><a href="#年份-x2F-项目-车载充电机开发小结" class="headerlink" title="[年份&#x2F;项目] 车载充电机开发小结"></a>[年份&#x2F;项目] 车载充电机开发小结</h1><h2 id="1️⃣-核心技术应用"><a href="#1️⃣-核心技术应用" class="headerlink" title="1️⃣ 核心技术应用"></a>1️⃣ 核心技术应用</h2><blockquote>
+<p>车载充电机（On-Board Charger, OBC）是电动汽车的重要组成部分，负责将外部电源转换为适合电池充电的电能。OBC的核心技术包括高效的电力电子转换、智能充电控制算法以及多种通信协议的应用，以确保充电过程的安全性和高效性。通过CAN通信，OBC能够与车辆的其他控制单元进行数据交换，实现对充电过程的实时监控和管理。</p>
 </blockquote>
-<h1 id="平台搭建"><a href="#平台搭建" class="headerlink" title="平台搭建"></a>平台搭建</h1><p>由无人机、水面艇和潜器组成的实验平台</p>
-<ul>
-<li>平台功能：具备通信、探测、定位和控制等基本功能。</li>
+<h3 id="开发环境"><a href="#开发环境" class="headerlink" title="开发环境"></a>开发环境</h3><ul>
+<li><strong>主控芯片</strong>：[TC334] </li>
+<li><strong>协处理器</strong>：[DSP]</li>
+<li><strong>开发工具</strong>：<ul>
+<li>编译环境：TASKING</li>
+<li>软件架构：AutoSAR</li>
+<li>版本管理：Git + GitLab</li>
 </ul>
-<div style="text-align: center;">
-  <img src="/images/协同平台.png" srcset="/img/loading.gif" lazyload alt="示例图片">
-</div>
-
-<h2 id="无人机"><a href="#无人机" class="headerlink" title="无人机"></a>无人机</h2><blockquote>
-<p>无人机提供了探测中对水面目标的探测优势。</p>
-</blockquote>
-<p>组成：控制单元、定位单元、通信单元和探测单元<br>主要框架结构如下：</p>
-<div style="text-align: center;">
-    <img src="/images/无人机平台.png" srcset="/img/loading.gif" lazyload alt="示例图片" style="width: 100%; height: auto;">
-</div>
-
-<ul>
-<li>控制单元：获取及处理图像数据、数据接收和传输控制指令。</li>
-<li>定位单元：获取定位数据</li>
-<li>通信单元：实现数据的无限通信传输。</li>
-<li>探测单元：实现视频图像的无限传输。</li>
+</li>
 </ul>
-<div style="display: flex; justify-content: space-around;">
-    <div>
-        <img src="/images/树莓派.png" srcset="/img/loading.gif" lazyload alt="树莓派" style="height: 200px; width: 200px;">
-        <p>树莓派</p>
-    </div>
-    <div>
-        <img src="/images/Pixhawk4.png" srcset="/img/loading.gif" lazyload alt="Pixhawk4" style="height: 200px; width: 200px;">
-        <p>Pixhawk4</p>
-    </div>
-</div>
-
-<h2 id="水面艇"><a href="#水面艇" class="headerlink" title="水面艇"></a>水面艇</h2><blockquote>
-<p>水面艇是水上和水下通信与协同的必要桥梁</p>
-</blockquote>
-<p>组成：控制单元、定位单元、通信单元和探测单元</p>
-<div style="text-align: center;">
-    <img src="/images/水面艇框架.png" srcset="/img/loading.gif" lazyload alt="示例图片" style="width: 100%; height: auto;">
-</div>
-
-<h2 id="潜器"><a href="#潜器" class="headerlink" title="潜器"></a>潜器</h2><blockquote>
-<p>水下探测的主力，能够对目标抵近侦察</p>
-</blockquote>
-<p>组成：双层结构，携带声呐等设备，其他与水面艇趋同</p>
-<h1 id="水池试验"><a href="#水池试验" class="headerlink" title="水池试验"></a>水池试验</h1><div style="text-align: center;">
-    <img src="/images/水池1.gif" srcset="/img/loading.gif" lazyload alt="示例图片" style="width: 100%; height: auto;">
-</div>
-
-<h1 id="湖泊试验"><a href="#湖泊试验" class="headerlink" title="湖泊试验"></a>湖泊试验</h1><div style="text-align: center;">
-    <img src="/images/湖泊1.png" srcset="/img/loading.gif" lazyload alt="示例图片" style="width: 100%; height: auto;">
-</div>
-
-<h1 id="海洋试验"><a href="#海洋试验" class="headerlink" title="海洋试验"></a>海洋试验</h1><div style="text-align: center;">
-    <img src="/images/海洋1.png" srcset="/img/loading.gif" lazyload alt="示例图片" style="width: 100%; height: auto;">
-</div>
-
-<h1 id="协同探测布局"><a href="#协同探测布局" class="headerlink" title="协同探测布局"></a>协同探测布局</h1><div style="text-align: center;">
-    <img src="/images/水面探测1.png" srcset="/img/loading.gif" lazyload alt="示例图片" style="width: 100%; height: auto;">
-</div>
-<div style="text-align: center;">
-    <img src="/images/协同布局.png" srcset="/img/loading.gif" lazyload alt="示例图片" style="width: 100%; height: auto;">
-</div>
-
-<blockquote>
-<p>详情可参考论文：<em><em>J. Yan, J. Lin</em>, et al.</em>* Cooperation Detection and Tracking of Underwater Target via Aerial–Surface–Underwater Vehicles IEEE TAC, 70(2): 1068-1083, 2025。</p>
-</blockquote>
+<h3 id="关键技术栈"><a href="#关键技术栈" class="headerlink" title="关键技术栈"></a>关键技术栈</h3><ul>
+<li><strong>通信协议</strong>：<ul>
+<li>CAN通信</li>
+<li>SCI通信</li>
+</ul>
+</li>
+<li><strong>功能模块</strong>：<ul>
+<li>应用层</li>
+<li>控制层</li>
+</ul>
+</li>
+</ul>
 
                 
               </div>
@@ -378,6 +323,13 @@
               <div class="post-metas my-3">
   
   
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/OBC/" class="print-no-link">#OBC</a>
+      
+    </div>
+  
 </div>
 
 
@@ -386,8 +338,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>跨域协同水下目标探测平台设计与搭建</div>
-      <div>https://jassis123.github.io/2025/03/02/跨域协同水下目标探测平台设计与搭建/</div>
+      <div>在新能源公司嵌入式软件岗位的学习总结（一）</div>
+      <div>https://jassis123.github.io/2025/03/23/OBC-learning/</div>
     </div>
     <div class="license-meta">
       
@@ -399,7 +351,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2025年3月2日</div>
+          <div>2025年3月23日</div>
         </div>
       
       
@@ -431,18 +383,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2025/03/23/OBC-learning/" title="在新能源公司嵌入式软件岗位的学习总结（一）">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">在新能源公司嵌入式软件岗位的学习总结（一）</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2025/02/05/hello-world/" title="&lt;置顶&gt; 欢迎！个人情况速览！">
-                        <span class="hidden-mobile">&lt;置顶&gt; 欢迎！个人情况速览！</span>
+                      <a href="/2025/03/02/%E8%B7%A8%E5%9F%9F%E5%8D%8F%E5%90%8C%E6%B0%B4%E4%B8%8B%E7%9B%AE%E6%A0%87%E6%8E%A2%E6%B5%8B%E5%B9%B3%E5%8F%B0%E8%AE%BE%E8%AE%A1%E4%B8%8E%E6%90%AD%E5%BB%BA/" title="跨域协同水下目标探测平台设计与搭建">
+                        <span class="hidden-mobile">跨域协同水下目标探测平台设计与搭建</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
